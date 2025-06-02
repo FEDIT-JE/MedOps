@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedOps", "MedOps\MedOps.csproj", "{4E90F7E4-A4A1-4202-8DE6-6A0C1AEED2F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedOps.Client", "MedOps.Client\MedOps.Client.csproj", "{42C97D48-CA72-416A-BFF3-AA97B83A1E9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E90F7E4-A4A1-4202-8DE6-6A0C1AEED2F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E90F7E4-A4A1-4202-8DE6-6A0C1AEED2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E90F7E4-A4A1-4202-8DE6-6A0C1AEED2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E90F7E4-A4A1-4202-8DE6-6A0C1AEED2F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C97D48-CA72-416A-BFF3-AA97B83A1E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C97D48-CA72-416A-BFF3-AA97B83A1E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C97D48-CA72-416A-BFF3-AA97B83A1E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C97D48-CA72-416A-BFF3-AA97B83A1E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ED3F1FD-6701-48D9-9293-30AB1D1EFD56}
+	EndGlobalSection
+EndGlobal
