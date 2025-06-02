@@ -1,5 +1,15 @@
-﻿<h3>SecurePage</h3>
+﻿@page "/securepage"
+@using MedOps.Services
+@inject SupabaseService SupabaseService
+@inject NavigationManager Navigation
+
+<MudText Typo="Typo.h4">Welcome to MedOps Secure Page</MudText>
+<MudButton OnClick="HandleLogout" Color="Color.Secondary">Logout</MudButton>
 
 @code {
-
+    private async Task HandleLogout()
+    {
+        await SupabaseService.SignOutAsync();
+        Navigation.NavigateTo("/login");
+    }
 }

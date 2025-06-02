@@ -1,5 +1,7 @@
 using MedOps.Client.Pages;
 using MedOps.Components;
+using MedOps.Services;
+using Microsoft.AspNetCore.Components.Web;
 using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
 builder.Services.AddMudServices();
+builder.Services.AddScoped<SupabaseService>();
 
 var app = builder.Build();
 
